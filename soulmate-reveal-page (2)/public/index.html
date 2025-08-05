@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo ao Seu Projeto de Alma Gêmea</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            color: #8B0000;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        .instructions {
+            background-color: #e9e9e9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            text-align: left;
+        }
+        .instructions code {
+            background-color: #ddd;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9em;
+        }
+        .button {
+            display: inline-block;
+            background-color: #075E54;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 25px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #054A42;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao Seu Projeto de Alma Gêmea!</h1>
+        <p>Esta é uma aplicação web interativa construída com <strong>Next.js e React</strong>.</p>
+        <p>Para visualizar a aplicação completa com todas as funcionalidades (quiz, chat, imagens e áudio), você precisa iniciá-la como um projeto Next.js.</p>
+
+        <div class="instructions">
+            <h2>Como iniciar o projeto:</h2>
+            <p>1. Abra o terminal ou prompt de comando na pasta raiz do projeto.</p>
+            <p>2. Instale as dependências (se ainda não o fez):<br><code>npm install</code></p>
+            <p>3. Inicie o servidor de desenvolvimento:<br><code>npm run dev</code></p>
+            <p>4. Após iniciar, a aplicação estará disponível em <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> (ou outra porta indicada no terminal).</p>
+        </div>
+
+        <a href="/" class="button">Ir para a Aplicação (se já estiver rodando)</a>
+        <p style="margin-top: 30px; font-size: 0.9em; color: #666;">
+            Este arquivo `index.html` é uma página estática. A aplicação principal é dinâmica e requer o Next.js para ser executada.
+        </p>
+    </div>
+</body>
+</html>
